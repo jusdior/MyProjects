@@ -1,0 +1,27 @@
+name = "Chrysler"
+name_list = ["C","H", "R", "Y", "S", "L", "E", "R"] 
+
+
+
+print(f"{name}")
+
+print(f"{name[0]}")
+
+print(f"{name[7]}")
+
+print(f"{name[2]}")
+
+
+
+hi = len(name)
+print(hi)
+
+hello = list(name)
+print(hello)
+
+print(f"{name_list[0:3]}")
+
+print(f"{name[0:3]} 'and' {name_list[0:3]} ")
+
+reversed_name = name[::-1]
+print(reversed_name)
